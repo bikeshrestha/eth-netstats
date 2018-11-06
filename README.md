@@ -53,3 +53,6 @@ see the interface at http://localhost:3000
 [travis-url]: https://travis-ci.org/cubedro/eth-netstats
 [dep-image]: https://david-dm.org/cubedro/eth-netstats.svg
 [dep-url]: https://david-dm.org/cubedro/eth-netstats
+
+### Docker
+docker run -p 3000:3000 -e WS_SECRET='testing' cobuna-ethstat:1.0.2

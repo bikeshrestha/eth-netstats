@@ -63,7 +63,7 @@ table td {
 .bg-warning,
 .bg-orange,
 .bg-danger {
-	color: #000;
+	color: #fff;
 }
 
 .text-gray {
@@ -255,7 +255,7 @@ table i {
 
 table th,
 table td {
-	border-color: #222 !important;
+	border-color: #999 !important;
 }
 
 table td {

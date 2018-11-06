@@ -1977,7 +1977,7 @@ th {
 }
 
 .table .table {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .table-condensed>thead>tr>th,
@@ -2008,11 +2008,11 @@ th {
 }
 
 .table-striped>tbody>tr:nth-child(odd) {
-  background-color: #050505;
+  background-color: #f5f5f5;
 }
 
 .table-hover>tbody>tr:hover {
-  background-color: #0a0a0a;
+  background-color: #fafafa;
 }
 
 table col[class*="col-"] {
@@ -2040,7 +2040,7 @@ table th[class*="col-"] {
 .table>thead>tr.active>th,
 .table>tbody>tr.active>th,
 .table>tfoot>tr.active>th {
-  background-color: #0a0a0a;
+  background-color: #fafafa;
 }
 
 .table-hover>tbody>tr>td.active:hover,
@@ -2048,7 +2048,7 @@ table th[class*="col-"] {
 .table-hover>tbody>tr.active:hover>td,
 .table-hover>tbody>tr:hover>.active,
 .table-hover>tbody>tr.active:hover>th {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .table>thead>tr>td.success,
@@ -4510,7 +4510,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse {
   background-color: #222;
-  border-color: #080808;
+  border-color: #f8f8f8;
 }
 
 .navbar-inverse .navbar-brand {
@@ -4541,7 +4541,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #f8f8f8;
 }
 
 .navbar-inverse .navbar-nav>.disabled>a,
@@ -4566,23 +4566,23 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #1f1f1f;
 }
 
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus {
-  background-color: #080808;
+  background-color: #f8f8f8;
   color: #fff;
 }
 
 @media (max-width:767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
-    border-color: #080808;
+    border-color: #f8f8f8;
   }
 
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #080808;
+    background-color: #f8f8f8;
   }
 
   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
